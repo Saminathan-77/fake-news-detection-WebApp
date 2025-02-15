@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News Verifier ✨</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="static/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AI News Verifier ✨</h1>
+
+        <!-- Text Input -->
+        <textarea id="newsInput" placeholder="Paste your news article here..."></textarea>
+
+        <!-- Image Upload -->
+        <input type="file" id="imageUpload" accept="image/*">
+
+        <!-- Analyze Button -->
+        <button class="analyze" onclick="analyzeNews()">Analyze</button>
+
+        <!-- Result Display -->
+        <div id="result"></div>
+        <br>
+
+        <!-- Download Report Button -->
+        <button id="downloadReport" class="download" onclick="downloadReport()">Download Report</button>
+    </div>
+</body>
+
+</html>
