@@ -10,7 +10,7 @@ from google.generativeai import configure, GenerativeModel, GenerationConfig
 app = Flask(__name__)
 
 # Configure Gemini API
-configure(api_key="AIzaSyDGk7ApYnTjLgU5VKSnhjdqLXznl2ji5m4")
+configure(api_key="your API KEY")
 model = GenerativeModel('gemini-2.0-flash')
 
 # AI classification function
